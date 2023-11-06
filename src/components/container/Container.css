@@ -1,0 +1,114 @@
+/* TodosContainer.css */
+.todos-container {
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ff6666; /* Updated primary color to a shade of red */
+}
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.todo-card {
+  width: 300px;
+  border: 1px solid #ddd; /* Softer border color */
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f8f8; /* Lighter background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  text-align: center;
+}
+
+.todo-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #ff6666; /* Updated text color to match the primary color */
+  text-decoration: none; /* Remove text decoration */
+}
+
+.todo-card p {
+  font-size: 16px;
+  color: #555; /* Updated text color */
+}
+
+.todo-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.todo-actions span {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ff6666; /* Updated border color to match the primary color */
+  border-radius: 5px;
+  color: #ff6666; /* Updated text color to match the primary color */
+  font-size: 14px;
+  text-align: center;
+}
+
+.todo-actions span:hover {
+  background-color: #ff6666; /* Updated background color to match the primary color */
+  color: #fff;
+}
+
+.todo-form-container {
+  width: 35%;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Updated box shadow */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff; /* Light background color */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ff6666; /* Updated text color to match the primary color */
+}
+
+input[type="text"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 300px;
+  resize: none;
+}
+
+button {
+  background-color: #ff6666; /* Updated button color to match the primary color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-color: #ff4747; /* Adjusted hover color */
+}
+
+.header-warning {
+  color: red; /* Retained red for warning messages */
+  font-weight: bold;
+}

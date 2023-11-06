@@ -1,0 +1,11 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px #555;
+}
+.navbar h1{
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+}
